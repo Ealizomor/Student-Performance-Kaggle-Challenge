@@ -13,9 +13,6 @@
 ![Screenshot 2025-05-02 004932](https://github.com/user-attachments/assets/6dc48cc1-4b35-4cdc-8ded-0dcb2b46fed9)
 
 
-![Screenshot 2025-05-02 004803](https://github.com/user-attachments/assets/dd887bed-fff1-4dd0-99db-5f07aa5880c3)
-
- 
 ## Summary of Workdone
 
 ### Data Summary
