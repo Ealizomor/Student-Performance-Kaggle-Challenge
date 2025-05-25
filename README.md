@@ -9,8 +9,11 @@
 * *This project looks at how I can use supervised machine learning to figure out if a student will pass or fail, based on things like gender, parental education, extracurricular activities, tutoring, and other factors. The dataset had both categorical and numerical features, so I had to preprocess it by using one-hot encoding for the categories and Min-Max scaling for the numbers. I trained and tested a few different classification models and looked at how well they did using accuracy, precision, recall, F1-score, and ROC-AUC.*
 
 
+![Screenshot 2025-05-02 004803](https://github.com/user-attachments/assets/b9da57d7-bb8b-450a-81ee-df4d72efcba5)
 
-![Screenshot 2025-05-02 004932](https://github.com/user-attachments/assets/6dc48cc1-4b35-4cdc-8ded-0dcb2b46fed9)
+
+
+![Screenshot 2025-05-02 004932](https://github.com/user-attachments/assets/8671db48-43fc-4b7c-9748-ca4f70dbd9a2)
 
 
 ## Summary of Workdone
@@ -25,7 +28,11 @@
     * Removed the target column (GradeClass)
   * The target column GradeClass serves as the indicator of student academic performance, which is later converted into a binary classification label (Pass_Fail) to distinguish between students who passed and those who failed.
 
-![Screenshot 2025-05-02 020203](https://github.com/user-attachments/assets/feefe5f4-04c6-47f6-98f4-f6bfc83d6b0d)
+![Screenshot 2025-05-02 020106](https://github.com/user-attachments/assets/c78fe51d-8d39-40f3-9bf4-976d23549059)
+
+![Screenshot 2025-05-02 020235](https://github.com/user-attachments/assets/84e8f449-efbf-4b5d-b091-6cbcd1fb43bb)
+
+
 
   * The dataset contains a total of 2,392 student records. 1,913 instances were used for training, 479 for testing, and no separate validation set was used.
 
@@ -58,15 +65,17 @@ Also, there was a column like StudentID, which seemed important at first but did
 * Test: (20%) of test.csv
   * This output is based on predictions
  
-![Screenshot 2025-05-02 042414](https://github.com/user-attachments/assets/2ed5d4d6-1e0d-432e-8507-35e3add8ecb9)
+![Screenshot 2025-05-02 042414](https://github.com/user-attachments/assets/68e8ea51-f3ab-4503-808f-cf3ae27b664b)
 
 * Problem Formation
   * Training was the hardest process because after several attempts to make an ROC Curve those results, it couldn't function ROC Curve due to switching to binary classification and wouldn't align with results. For example:
 
     
-![Screenshot 2025-05-02 084358](https://github.com/user-attachments/assets/969cec38-9e41-4718-a79f-33366c06e939)
+![Screenshot 2025-05-02 084358](https://github.com/user-attachments/assets/4767a32b-5b99-49e5-9701-9ab246726a59)
 
-![Screenshot 2025-05-02 111932](https://github.com/user-attachments/assets/8015b93f-882c-4a2e-ae52-4ca3ea6af091)
+
+
+![Screenshot 2025-05-02 111932](https://github.com/user-attachments/assets/a6aeca15-4667-4a29-9101-cce3f8c997aa)
 
 
 ### Conclusions
